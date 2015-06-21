@@ -1,0 +1,13 @@
+This file is a code book that describes the variables, the data, and any transformations performed to clean up the data
+
+The data for the project:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+run_analysis.R performs the following (in short)
+
+1. Merges the training and test data sets into one called "totalFeatures".
+2. Uses only the mean or standard deviations from the original dataset
+3. Includes the subject id to the data frame ("totalSubjects")
+4. Includes the names of the activities performed  by the ids ("activityLabels") to the single data frame called "activityDF"
+5. Organises the "activityDF" by subjectID and activity and saves the "result" as a txt file ("mean_results.txt").
+
